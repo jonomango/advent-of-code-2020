@@ -7,7 +7,7 @@ with open("input.txt", "r") as f:
     # the char in the policy
     c = policy[-1]
 
-    # min and max
+    # valid positions
     pos1, pos2 = [int(x) for x in policy[:-2].split("-")]
 
     # are the letters present?
