@@ -1,4 +1,5 @@
 import math
+import copy
 from functools import reduce
 
 with open("input2.txt", "r") as file:
